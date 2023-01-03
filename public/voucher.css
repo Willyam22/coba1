@@ -1,0 +1,71 @@
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.abang-mahesa {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-container-1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    grid-gap: 10px;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card-voucher {
+    display: flex;
+    border: 2px dashed red;
+    width: 250px;
+    height: 40px;
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    transition-duration: 0.4s;
+}
+
+.text-voucher p {
+    margin: 0;
+    padding: 0;
+}
+
+.text-voucher {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.center1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card-voucher img{
+    height: 40px;
+    width: 60px;
+}
+
+.bor   {
+    border-bottom: 2px solid black;
+    text-align: center;
+}
